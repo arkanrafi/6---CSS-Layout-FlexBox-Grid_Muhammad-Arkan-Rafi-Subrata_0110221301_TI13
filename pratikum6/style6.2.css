@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+#container1 {
+    display: flexbox;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+#nav {
+    display: flexbox;
+    background-color: pink;
+    width: 100px;
+    height: 300px;
+    flex-direction: row;
+    float: left;
+}
+#container > header {
+    width: 100%;
+    height: 50px;
+    background-color: sandybrown;
+    display: flexbox;
+    flex-direction: column;
+    margin: 10px;
+}
+#container > footer {
+    width: 100%;
+    height: 50px;
+    background-color: sandybrown;
+    display: flexbox;
+    flex-direction: column;
+}
+#aa {
+    display: flex;
+    flex: 1;
+}
+#aa > article {
+    background-color: seashell;
+    width: 70%;
+    height: 200px;
+}
+#aa > aside {
+    background-color: skyblue;
+    width: 30%;
+    height: 200px;
+}
